@@ -1,5 +1,5 @@
-import React, {Component, useState} from "react";
-import '../styles/App.css';
+import React, { Component, useState } from "react";
+import "../styles/App.css";
 
 const App = () => {
   const [index, setIndex] = useState(0);
@@ -14,8 +14,8 @@ const App = () => {
       >
         Restart
       </button>
-    );
-  };
-
+    </div>
+  );
+};
 
 export default App;
